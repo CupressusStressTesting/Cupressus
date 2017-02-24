@@ -10,6 +10,11 @@ class SiegeTest extends \PHPUnit_Framework_TestCase
     {
         $siege = new Siege();
 
-        $this->assertSame('', $siege->convert([]));
+        $this->assertSame(
+            'https://github.com/CupressusStressTesting/Cupressus/issues/1 GET',
+            $siege->convert([
+                'https://github.com/CupressusStressTesting/Cupressus/issues/1',
+            ])
+        );
     }
 }
