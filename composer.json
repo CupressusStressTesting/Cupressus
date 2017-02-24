@@ -1,0 +1,9 @@
+{
+    "name": "reen-exe/cupressus",
+    "description": "Convert array of link to siege setting file",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {}
+}
